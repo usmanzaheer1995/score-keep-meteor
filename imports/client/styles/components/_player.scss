@@ -1,0 +1,21 @@
+.player {
+    //flexbox displays everything from left to right
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__name {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.player__stats {
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.player__actions {
+    flex-shrink: 0;
+}

@@ -1,0 +1,31 @@
+.item {
+    background: white;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem;
+}
+
+    //BEM : Block, Element, Modifier
+
+//Element naming convention
+.item__message {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+.item--position-1 {
+    background: lightgreen;
+}
+.item--position-2 {
+    background: lightblue;
+}
+.item--position-3 {
+    background: #f49189;
+}
+
+//Modifier naming convention
+.item__message--empty {
+    color: #999999;
+}
